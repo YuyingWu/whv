@@ -1,0 +1,461 @@
+<link rel="stylesheet" href="../../../css/health.css">
+
+<div id="DIV_1">
+    <div id="DIV_2">
+        <div id="DIV_3">
+            <table id="TABLE_4">
+                <tbody id="TBODY_5">
+                    <tr id="TR_6">
+                        <td id="TD_7">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$previousImageButton" id="INPUT_8" accesskey="P" src="http://cdn.sinacloud.net/whv-img/button_previous.gif" alt="Previous (ALT + P)" />
+                        </td>
+                        <td id="TD_9">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$validateButton" id="INPUT_10" accesskey="S" src="http://cdn.sinacloud.net/whv-img/button_save.gif" alt="Save (ALT + S)" />
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$completeLaterImageButton" id="INPUT_11" accesskey="L" src="http://cdn.sinacloud.net/whv-img/button_complete_later.gif" alt="Complete Later (ALT + L)" />
+                        </td>
+                        <td id="TD_12">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$nextImageButton" id="INPUT_13" accesskey="N" src="http://cdn.sinacloud.net/whv-img/button_next.gif" alt="Next (ALT + N)" />
+                        </td>
+                    </tr>
+                    <tr id="TR_14">
+                        <td colspan="3" id="TD_15">
+                            <table id="TABLE_16">
+                                <tbody id="TBODY_17">
+                                    <tr id="TR_18">
+                                        <td id="TD_19">
+                                            <table id="TABLE_20">
+                                                <tbody id="TBODY_21">
+                                                    <tr id="TR_22">
+                                                        <td id="TD_23">
+                                                            <span id="SPAN_24">*</span> 
+                                                            <label id="LABEL_25">
+                                                                indicates a mandatory field.
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr id="TR_26">
+                                                        <td id="TD_27">
+                                                            <span id="SPAN_28"><input id="INPUT_29" type="checkbox" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$mandatoryFields$displayMandatoryFieldErrorsCheckBox" accesskey="T" />
+                                                                <label for="ctl00_ContentPlaceHolder1_wizardPageHeader_nav_mandatoryFields_displayMandatoryFieldErrorsCheckBox" id="LABEL_30">
+                                                                    Display mandatory field error messages
+                                                                </label></span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                        <td id="TD_31">
+                                            <table id="TABLE_32">
+                                                <tbody id="TBODY_33">
+                                                    <tr id="TR_34">
+                                                        <td id="TD_35">
+                                                            <img id="IMG_36" src="http://cdn.sinacloud.net/whv-img/icon_error.gif" alt="Error" />
+                                                        </td>
+                                                        <td id="TD_37">
+                                                            <label for="errorImage" id="LABEL_38">
+                                                                The section is incomplete and/or contains errors.
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr id="TR_39">
+                                                        <td id="TD_40">
+                                                            <img id="IMG_41" src="http://cdn.sinacloud.net/whv-img/icon_tick.gif" alt="Clear" />
+                                                        </td>
+                                                        <td id="TD_42">
+                                                            <label for="okImage" id="LABEL_43">
+                                                                Section is complete and has no errors.
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="DIV_44">
+                <br id="BR_45" />
+                <table id="TABLE_46">
+                    <tbody id="TBODY_47">
+                        <tr id="TR_48">
+                            <td id="TD_49">
+                                <div id="DIV_50">
+                                    <div id="DIV_51" ng-click="jump('/personal-details')">
+                                        <img src="http://cdn.sinacloud.net/whv-img/icon_error.gif" id="IMG_52" width="13" height="13" alt="Contains Errors" />
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$sectionTabs$TabHeaders$ctl00$tabButton" value="Personal" id="INPUT_53" />
+                                    </div>
+                                    <div id="DIV_54" ng-click="jump('/health')">
+                                        <img src="http://cdn.sinacloud.net/whv-img/icon_error.gif" id="IMG_55" width="13" height="13" alt="Contains Errors" />
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$sectionTabs$TabHeaders$ctl01$tabButton" value="Health" id="INPUT_56" />
+                                    </div>
+                                    <div id="DIV_57" ng-click="jump('/character')">
+                                        <img src="http://cdn.sinacloud.net/whv-img/icon_error.gif" id="IMG_58" width="13" height="13" alt="Contains Errors" />
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$sectionTabs$TabHeaders$ctl02$tabButton" value="Character" id="INPUT_59" />
+                                    </div>
+                                    <div id="DIV_60" ng-click="jump('/specification')">
+                                        <img src="http://cdn.sinacloud.net/whv-img/icon_error.gif" id="IMG_61" width="13" height="13" alt="Contains Errors" />
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$wizardPageHeader$nav$sectionTabs$TabHeaders$ctl03$tabButton" value="Working Holiday Specific" id="INPUT_62" />
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <table id="TABLE_63">
+                <tbody id="TBODY_64">
+                    <tr id="TR_65">
+                        <td colspan="7" id="TD_66">
+                        </td>
+                    </tr>
+                    <tr id="TR_67">
+                        <td id="TD_68">
+                        </td>
+                        <td colspan="4" id="TD_69">
+                        </td>
+                        <td id="TD_70">
+                        </td>
+                    </tr>
+                    <tr id="TR_71">
+                        <td id="TD_72">
+                        </td>
+                        <td id="TD_73">
+                        </td>
+                        <td id="TD_74">
+                            This section will help us determine whether you will meet our health requirements.<br id="BR_75" /> Before completing these questions you must read our <a href="http://www.immigration.govt.nz/NR/rdonlyres/DD2D2D27-DD49-4A62-96CC-3A1F32223C8E/0/1121AMar8bFINAL.pdf" id="A_77" title="Link opens in a new window">Health requirements leaflet (NZIS 1121)</a>. This leaflet will tell you about the requirements you may be required to complete to have this application considered.
+                        </td>
+                        <td id="TD_78">
+                        </td>
+                        <td id="TD_79">
+                        </td>
+                    </tr>
+                    <tr id="TR_80">
+                        <td id="TD_81">
+                        </td>
+                        <td id="TD_82">
+                        </td>
+                        <td id="TD_83">
+                            <table id="TABLE_84">
+                                <tbody id="TBODY_85">
+                                    <tr id="TR_86">
+                                        <td id="TD_87">
+                                            Do you have a medical condition that requires, or may require, renal dialysis during your intended stay in New Zealand?
+                                        </td>
+                                        <td id="TD_88">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$renalDialysisDropDownList" id="SELECT_89">
+                                                 
+                                                <option selected="selected" id="OPTION_90">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_91">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_92">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_93">*</span>
+                                        </td>
+                                        <td id="TD_94">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_95">
+                                        <td id="TD_96">
+                                            Do you have active tuberculosis (TB)?
+                                        </td>
+                                        <td id="TD_97">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$tuberculosisDropDownList" id="SELECT_98">
+                                                 
+                                                <option selected="selected" id="OPTION_99">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_100">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_101">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_102">*</span>
+                                        </td>
+                                        <td id="TD_103">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_104">
+                                        <td colspan="3" id="TD_105">
+                                            Do you have any of the following medical condition(s):
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_106">
+                                        <td id="TD_107">
+                                            <ul id="UL_108">
+                                                <li id="LI_109">
+                                                    Cancer
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td id="TD_110">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$cancerDropDownList" id="SELECT_111">
+                                                 
+                                                <option selected="selected" id="OPTION_112">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_113">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_114">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_115">*</span>
+                                        </td>
+                                        <td id="TD_116">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_117">
+                                        <td id="TD_118">
+                                            <ul id="UL_119">
+                                                <li id="LI_120">
+                                                    Heart disease
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td id="TD_121">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$heartDiseaseDropDownList" id="SELECT_122">
+                                                 
+                                                <option selected="selected" id="OPTION_123">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_124">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_125">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_126">*</span>
+                                        </td>
+                                        <td id="TD_127">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_128">
+                                        <td id="TD_129">
+                                            <ul id="UL_130">
+                                                <li id="LI_131">
+                                                    A mental, physical or intellectual disability
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td id="TD_132">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$disabilityDropDownList" id="SELECT_133">
+                                                 
+                                                <option selected="selected" id="OPTION_134">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_135">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_136">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_137">*</span>
+                                        </td>
+                                        <td id="TD_138">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_139">
+                                        <td colspan="3" id="TD_140">
+                                            Do you have any medical condition(s) that currently requires, or may require during your intended stay in New Zealand:
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_141">
+                                        <td id="TD_142">
+                                            <ul id="UL_143">
+                                                <li id="LI_144">
+                                                    Hospitalisation
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td id="TD_145">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$hospitalisationDropDownList" id="SELECT_146">
+                                                 
+                                                <option selected="selected" id="OPTION_147">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_148">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_149">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_150">*</span>
+                                        </td>
+                                        <td id="TD_151">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_152">
+                                        <td id="TD_153">
+                                            <ul id="UL_154">
+                                                <li id="LI_155">
+                                                    Residential care (residential care is long-term care provided in a live-in facility such as a facility for people with a physical or psychiatric disability and includes 24 hour supervision)
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td id="TD_156">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$residentailCareDropDownList" id="SELECT_157">
+                                                 
+                                                <option selected="selected" id="OPTION_158">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_159">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_160">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_161">*</span>
+                                        </td>
+                                        <td id="TD_162">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_163">
+                                        <td colspan="3" id="TD_164">
+                                            <table id="TABLE_165">
+                                                <tbody id="TBODY_166">
+                                                    <tr id="TR_167">
+                                                        <td id="TD_168">
+                                                            Are you pregnant?
+                                                        </td>
+                                                        <td id="TD_169">
+                                                             
+                                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$pregnancy$pregnancyStatusDropDownList" id="SELECT_170">
+                                                                 
+                                                                <option selected="selected" id="OPTION_171">
+                                                                    Select an option
+                                                                </option> 
+                                                                <option value="No" id="OPTION_172">
+                                                                    No
+                                                                </option> 
+                                                                <option value="Yes" id="OPTION_173">
+                                                                    Yes
+                                                                </option>
+                                                            </select> <span id="SPAN_174">*</span>
+                                                        </td>
+                                                        <td id="TD_175">
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id="TABLE_176">
+                                <tbody id="TBODY_177">
+                                    <tr id="TR_178">
+                                        <td colspan="2" id="TD_179">
+                                            If you answered “yes” to any of the questions above please provide details (you may be required to provide further information on your medical condition).
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_180">
+                                        <td id="TD_181">
+                                            <textarea name="ctl00$ContentPlaceHolder1$medicalConditions$healthDetailsIntergenTextBox" rows="5" cols="80" id="TEXTAREA_182">
+                                            </textarea>
+                                        </td>
+                                        <td id="TD_183">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table id="TABLE_184">
+                                <tbody id="TBODY_185">
+                                    <tr id="TR_186">
+                                        <td id="TD_187">
+                                            In the five years prior to this application, have you spent (lived in and/or visited) a combined total of 3 months in any country or countries NOT considered to be <a href="http://glossary.immigration.govt.nz/LowTBRiskCountry.htm" id="A_188" title="Link opens in a new window">low risk for TB</a>.
+                                        </td>
+                                        <td id="TD_189">
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$tbRiskDropDownList" id="SELECT_190">
+                                                 
+                                                <option selected="selected" id="OPTION_191">
+                                                    Select an option
+                                                </option> 
+                                                <option value="No" id="OPTION_192">
+                                                    No
+                                                </option> 
+                                                <option value="Yes" id="OPTION_193">
+                                                    Yes
+                                                </option>
+                                            </select> <span id="SPAN_194">*</span>
+                                        </td>
+                                        <td id="TD_195">
+                                        </td>
+                                    </tr>
+                                    <tr id="TR_196">
+                                        <td id="TD_197">
+                                            If you are a passport holder of a country NOT considered low risk for TB you may be required to submit an x-ray certificate when you submit this application.
+                                        </td>
+                                        <td id="TD_198">
+                                        </td>
+                                        <td id="TD_199">
+                                        </td>
+                                    </tr> <!-- <tr vAlign="top"> -->
+                                </tbody>
+                            </table>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            If you can prove that you have not lived in or visited that country you may be eligible for exemption. Do you wish to be considered for an exemption on this basis?
+                                        </td>
+                                        <td>
+                                            <select name="ctl00$ContentPlaceHolder1$medicalConditions$xrayExemptionDropDownList" id="ctl00_ContentPlaceHolder1_medicalConditions_xrayExemptionDropDownList">
+                                            </select> <span id="ctl00_ContentPlaceHolder1_medicalConditions_xrayExemptionMandatoryLabel">*</span>
+                                        </td>
+                                        <td>
+                                            <span id="ctl00_ContentPlaceHolder1_medicalConditions_xrayExemptionErrorLabel"></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><span id="SPAN_208"></span>
+            <p id="P_209">
+                <b id="B_210">Important - please check the information you have entered carefully to ensure it is correct before going to the next section.</b>
+            </p><br id="BR_211" />
+            <table id="TABLE_212">
+                <tbody id="TBODY_213">
+                    <tr id="TR_214">
+                        <td id="TD_215">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageFooter$wizardPageNavigator$previousImageButton" id="INPUT_216" accesskey="P" src="http://cdn.sinacloud.net/whv-img/button_previous.gif" alt="Previous (ALT + P)" />
+                        </td>
+                        <td id="TD_217">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageFooter$wizardPageNavigator$validateButton" id="INPUT_218" accesskey="S" src="http://cdn.sinacloud.net/whv-img/button_save.gif" alt="Save (ALT + S)" />
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageFooter$wizardPageNavigator$completeLaterImageButton" id="INPUT_219" accesskey="L" src="http://cdn.sinacloud.net/whv-img/button_complete_later.gif" alt="Complete Later (ALT + L)" />
+                        </td>
+                        <td id="TD_220">
+                            <input type="image" name="ctl00$ContentPlaceHolder1$wizardPageFooter$wizardPageNavigator$nextImageButton" id="INPUT_221" accesskey="N" src="http://cdn.sinacloud.net/whv-img/button_next.gif" alt="Next (ALT + N)" />
+                        </td>
+                    </tr>
+                    <tr id="TR_222">
+                        <td colspan="3" id="TD_223">
+                            <table id="TABLE_224">
+                                <tbody id="TBODY_225">
+                                    <tr id="TR_226">
+                                        <td id="TD_227">
+                                        </td>
+                                        <td id="TD_228">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<link rel="import" href="../layout/guide.html?__inline">

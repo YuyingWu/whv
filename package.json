@@ -1,0 +1,27 @@
+{
+  "name": "NZ WHV Application Form",
+  "version": "1.0.0",
+  "description": "Application form demo of New Zealand Working Holiday Visa",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuyingWu/whv.git"
+  },
+  "author": "wuyuying",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuyingWu/whv/issues"
+  },
+  "homepage": "http://www.wuyuying.com/whv/#/personal-details",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^1.2.0"
+  },
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0"
+  }
+}

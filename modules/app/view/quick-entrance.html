@@ -1,0 +1,41 @@
+<style type="text/css">
+    .pure-menu-link{
+        display: inline-block;
+    }
+</style>
+
+<div class="quick-entrance" ng-controller="QuickEntranceController">
+    <form class="pure-form">
+        <label>ApplicationId:</label>
+        <input ng-model="appId" type="text" class="input-elem pure-input-rounded" placeholder="please type your application id"/>
+        <!-- <span class="pure-button pure-button-primary" ng-class="{'pure-button-disabled': !activeLink}" ng-click="openLink()">打开id、health、character</span> -->
+    </form>
+
+    <div class="pure-menu custom-restricted-width">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Personal-details: <a class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Wizard/Personal1.aspx?ApplicationId={{appId}}&IndividualType=Primary&IndividualIndex=1" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Personal-identification: <a id="link-id" class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Wizard/Personal2.aspx?ApplicationId={{appId}}&IndividualType=Primary&IndividualIndex=1" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Health: <a id="link-health" class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Wizard/Medical1.aspx?ApplicationId={{appId}}&IndividualType=Primary&IndividualIndex=1" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Character: <a id="link-character" class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Wizard/Character.aspx?ApplicationId={{appId}}&IndividualType=Primary&IndividualIndex=1" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Specific: <a class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Wizard/WorkingHolidaySpecific.aspx?ApplicationId={{appId}}&IndividualType=Primary&IndividualIndex=1" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Submit: <a class="pure-menu-link" href="https://www.immigration.govt.nz/WORKINGHOLIDAY/Application/Submit.aspx?ApplicationId={{appId}}" target="_blank">跳转到相应页面</a>
+            </li>
+            <li class="pure-menu-item" ng-class="{'pure-menu-disabled': !activeLink}">
+                Pay: <a class="pure-menu-link" href="https://www.immigration.govt.nz/WorkingHoliday/Application/Pay.aspx?ApplicationId={{appId}}" target="_blank">跳转到相应页面</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<link rel="import" href="layout/guide.html?__inline">

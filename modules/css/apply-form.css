@@ -1,0 +1,93 @@
+#DIV_1 {
+    height: 204px;
+    width: 1234px;
+    perspective-origin: 639.5px 113px;
+    transform-origin: 639.5px 113px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+    padding: 14px 25px 8px 20px;
+}/*#DIV_1*/
+
+#DIV_2 {
+    height: 188px;
+    width: 1234px;
+    perspective-origin: 617px 94px;
+    transform-origin: 617px 94px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+}/*#DIV_2*/
+
+#DIV_3 {
+    height: 19px;
+    width: 1234px;
+    perspective-origin: 617px 9.5px;
+    transform-origin: 617px 9.5px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+}/*#DIV_3*/
+
+#P_4, #P_10, #P_17 {
+    height: 19px;
+    width: 1234px;
+    perspective-origin: 617px 9.5px;
+    transform-origin: 617px 9.5px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+    margin: 8px 0px;
+}/*#P_4, #P_10, #P_17*/
+
+#SPAN_5, #BR_9, #BR_13, #BR_16 {
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+}/*#SPAN_5, #BR_9, #BR_13, #BR_16*/
+
+#B_6, #SPAN_7 {
+    font: normal normal bold normal 16px/normal verdana, arial, sans-serif;
+}/*#B_6, #SPAN_7*/
+
+#DIV_8 {
+    height: 134px;
+    width: 1234px;
+    perspective-origin: 617px 67px;
+    transform-origin: 617px 67px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+}/*#DIV_8*/
+
+#P_11 {
+    height: 19px;
+    width: 1234px;
+    perspective-origin: 617px 9.5px;
+    transform-origin: 617px 9.5px;
+    font: normal normal bold normal 16px/normal verdana, arial, sans-serif;
+    margin: 8px 0px;
+}/*#P_11*/
+
+#A_12 {
+    color: rgb(77, 77, 77);
+    border: 0px none rgb(77, 77, 77);
+    font: normal normal bold normal 16px/normal verdana, arial, sans-serif;
+    outline: rgb(77, 77, 77) none 0px;
+}/*#A_12*/
+
+#DIV_14 {
+    height: 15px;
+    text-align: -webkit-center;
+    width: 1234px;
+    perspective-origin: 617px 7.5px;
+    transform-origin: 617px 7.5px;
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+}/*#DIV_14*/
+
+#INPUT_15 {
+    box-sizing: content-box;
+    height: 15px;
+    width: 85px;
+    perspective-origin: 42.5px 7.5px;
+    transform-origin: 42.5px 7.5px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 0px none rgb(0, 0, 0);
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+    padding: 0px;
+}/*#INPUT_15*/
+
+#A_18 {
+    color: rgb(77, 77, 77);
+    border: 0px none rgb(77, 77, 77);
+    font: normal normal normal normal 16px/normal verdana, arial, sans-serif;
+    outline: rgb(77, 77, 77) none 0px;
+}/*#A_18*/
